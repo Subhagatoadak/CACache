@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c \"import json; nb=json.load\\(open\\('examples/cacache_demo.ipynb'\\)\\); [print\\(f'Cell {i}: outputs={len\\(c.get\\(\\\\\"outputs\\\\\",[]\\)\\)}'\\) for i,c in enumerate\\(nb['cells']\\)]\")",
+      "Bash(python -c ':*)"
+    ],
+    "additionalDirectories": [
+      "/Users/subhagatoadak/Documents/github/CACache/src"
+    ]
+  }
+}
